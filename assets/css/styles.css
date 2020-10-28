@@ -10,7 +10,7 @@
     --third-color: #049DD9;
     --fourth-color: #04B2D9;
     --fifth-color: #0D0D0D;
-    --white-color: rgb(235, 235, 235);
+    --white-color: rgb(245, 245, 245);
 }
 
 /*----- Fuente y tipografia -----*/
@@ -70,10 +70,11 @@ img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    z-index: -1;
 }
 
 .shape1 {
-    top: 7rem;
+    top: -7rem;
     left: -3.5rem;
     background: linear-gradient(180deg, var(--first-color) 0%, rgba(196, 196, 196, 0) 100%);
 }
